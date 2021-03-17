@@ -75,6 +75,14 @@ func (c Client) GetBalance() (float64, error) {
 	return balanceFloat, nil
 }
 
+// GetBalance returns current balance in BTC
+func (c Client) GetAccounts() error {
+	if err := c.Get("accounts", nil, nil); err != nil {
+		return err
+	}
+	return nil
+}
+
 // GetReceiveAddress returns clients current bitcoin receive address
 func (c Client) GetReceiveAddress() (string, error) {
 	holder := map[string]interface{}{}
