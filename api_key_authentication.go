@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fabioberger/coinbase-go/config"
+	"github.com/bob9/coinbase-go/config"
 )
 
 // ApiKeyAuthentication Struct implements the Authentication interface and takes

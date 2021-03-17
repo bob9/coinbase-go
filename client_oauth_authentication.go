@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fabioberger/coinbase-go/config"
+	"github.com/bob9/coinbase-go/config"
 )
 
 // ClientOAuthAuthentication Struct implements the Authentication interface
