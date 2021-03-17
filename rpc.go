@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	_ "github.com/motemen/go-loghttp/global"
 )
 
 // basePath needed for reading mock JSON files in simulateRequest and for
